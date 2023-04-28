@@ -14,8 +14,8 @@
 
 .transactionHistoryTableHeader {
   display: flex;
-  gap: 10px;
-  font-size: 28px;
+  gap: 16px;
+  font-size: 24px;
   text-transform: uppercase;
   border-radius: 12px;
   background-color: hsla(215, 98%, 79%, 0.4);
