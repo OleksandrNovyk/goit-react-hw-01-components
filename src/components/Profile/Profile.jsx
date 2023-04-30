@@ -11,7 +11,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
         alt={username} 
         className={css.avatar} />
         <p className={css.name}>{username}</p>
-        <p className={css.tag}>@{tag}</p>
+        <p className={css.tag}> <a href="https://www.instagram.com/jeandujardin/">@{tag}</a></p>
         <p className={css.location}>{location}</p>
       </div>
 
